@@ -1,0 +1,103 @@
+body {
+    background-color: #ADD8E6; /* Azul claro como el cielo */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header marquee {
+    background-color: #e0f2f7;
+    color: #007bff;
+    padding: 8px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.portada {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.portada h1 {
+    color: #28a745; /* Un toque de verde para "Hambre Cero" */
+    margin-bottom: 20px;
+}
+
+.portada img {
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.portada p {
+    margin-bottom: 10px;
+}
+
+.portada ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.portada li {
+    margin: 5px 0;
+}
+
+.portada button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.portada button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
